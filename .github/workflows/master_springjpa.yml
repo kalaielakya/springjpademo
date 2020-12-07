@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'springjpa'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ee65640a0a8f4ecf9d9f1b0223817b76 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a3aeac13610c49b589900274ad8a827b }}
         package: '${{ github.workspace }}/target/*.jar'
